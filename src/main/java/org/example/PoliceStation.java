@@ -15,6 +15,8 @@ public class PoliceStation extends PoliceInspectorate {
 class Department {
     String name;
 
+    Integer nrOfEmployees;
+
     public Department(String name) {
         this.name = name;
         System.out.println("Constructor from department");
