@@ -12,6 +12,7 @@
         <module>OCP_JAVA_SE_11</module>
         <module>HackerRankExercise</module>
         <module>MortgageCalculator</module>
+        <module>DesigntPatterns</module>
     </modules>
 
     <properties>
