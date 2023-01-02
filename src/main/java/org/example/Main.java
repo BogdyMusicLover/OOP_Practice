@@ -14,12 +14,24 @@ public class Main {
         departments.add(managementDepartment);
 
 
-        PoliceStation policeStation = new PoliceStation(
+        PoliceStation policeStation10 = new PoliceStation(
                 "Sectia 10 Politie",
                 "Bucuresti, str. Valeriu Braniste, nr.9, sector 3",
                 employeesFromPoliceStation10,
                 departments
         );
+
+
+        System.out.println(PoliceStation.numberOfPoliceStation);
+
+        PoliceStation policeStation11 = new PoliceStation(
+                "Sectia 11 Politie",
+                "Bucuresti",
+                employeesFromPoliceStation10,
+                departments
+        );
+        System.out.println(PoliceStation.numberOfPoliceStation);
+
 
 
     }
